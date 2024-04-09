@@ -5,8 +5,8 @@ import { Box } from "@mui/material";
 
 export const Track = () => {
     return(
-        <Box maxWidth="xl" style={{ backgroundColor: "#F6F7EB"}}>
-            <Box margin="10px" maxWidth="sm" id="track" className="py-5 mx-auto">
+        <Box maxWidth="xl" id="track" style={{ backgroundColor: "#F6F7EB"}}>
+            <Box margin="10px" maxWidth="sm" className="py-5 mx-auto">
                 <form>
                     <Box margin="10px" data-mdb-input-init className="form-outline mt-5 mx-auto form-group">
                         <label className="form-label mb-2" for="tracker" style={{ color: "#033C5F", fontWeight:"900"}}>Tracking Number</label>
