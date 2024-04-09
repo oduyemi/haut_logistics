@@ -5,6 +5,7 @@ import { Services } from "../../components/Services";
 import { Contact } from "../../components/Contact";
 import { Footer } from "../../components/Footer";
 import { FAQs } from "../../components/FAQs";
+import { Track } from "../../components/Track";
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Banner />
             <About />
             <Services id="services" />
+            <Track />
             <FAQs id="faqs" />
             <Contact id="contact" />
             <Footer />

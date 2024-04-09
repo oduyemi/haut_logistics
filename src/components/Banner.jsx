@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
+import { Link as ScrollLink } from "react-scroll";
 
 export const Banner = () => {
     const settings = {
@@ -36,7 +37,7 @@ export const Banner = () => {
                                             >
                                             Cargo exports from Canada to anywhere in Nigeria.
                                         </Typography>
-                                        <Box className="read_bt"><Link to="">Track Delivery</Link></Box>
+                                        <Box className="read_bt"><ScrollLink to="track">Track Delivery</ScrollLink></Box>
                                     </Box>
                                 </Box>
                             </Box>
@@ -59,7 +60,7 @@ export const Banner = () => {
                                         <Typography variant="h5" sx={{fontWeight:"300"}} paragraph className="many_text">
                                             Relocation service from Toronto to any province in Canada.
                                         </Typography>
-                                        <Box className="read_bt"><Link to="">Track Delivery</Link></Box>
+                                        <Box className="read_bt"><ScrollLink to="track">Track Delivery</ScrollLink></Box>
                                     </Box>
                                 </Box>
                             </Box>
@@ -82,11 +83,11 @@ export const Banner = () => {
                                         <Typography variant="h5" sx={{fontWeight:"300"}} paragraph className="many_text">
                                             Sea cargo export. Ship your cars, barrels, goods, suitcase and much more.
                                         </Typography>
-                                        <Box className="read_bt"><Link to="">Track Delivery</Link></Box>
+                                        <Box className="read_bt"><ScrollLink to="track">Track Delivery</ScrollLink></Box>
                                     </Box>
                                 </Box>
                             </Box>
-                            <Box className="col-md-6 padding_0">
+                            <Box className="col-md-6 padding_0" id="home">
                                 <Box className="image_1"><img src={require("../assets/images/bc.jpg")} alt="Banner Image" /></Box>
                             </Box>
                         </Box>
