@@ -1,4 +1,4 @@
-# Haut Logistics Web Application Documentation
+# Haut Logistics
 
 ## Overview
 
