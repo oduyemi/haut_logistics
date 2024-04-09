@@ -18,9 +18,12 @@ export const Services = () => {
                     </Box>
                     <Box className="padding_left0">
                         <ul>
-                            <li>Local Cargo Exports</li>
-                            <li>Relocation </li>
-                            <li>Sea Cargo Service</li>
+                            <li>Air freight into Canada and from Canada</li>
+                            <li>Sea freight import into Canada and export from Canada </li>
+                            <li>Door to Door service</li>
+                            <li>LTL ( Less than Truckload) within Canada</li>
+                            <li>FTL ( Full Truck Load) within Canada</li>
+                            <li>Relocation service Within canada</li>
                         </ul>
                         </Box>
                     </Box>
