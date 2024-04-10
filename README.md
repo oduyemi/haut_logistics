@@ -63,7 +63,7 @@ haut-logistics/
         ├── Services.jsx
 │   │   ├── Track.jsx
 │   │   └── ...
-│   ├── navigation/           # TRoutes
+│   ├── navigation/           # Routes using React Router Dom
 │   │   ├── index.jsx
 │   │   └── ...
 │   ├── pages/           # The web application is configured to be a one-page site
