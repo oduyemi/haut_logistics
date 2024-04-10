@@ -66,7 +66,7 @@ haut-logistics/
 │   ├── navigation/           # Routes using React Router Dom
 │   │   ├── index.jsx
 │   │   └── ...
-│   ├── pages/           # The web application is configured to be a one-page site
+│   ├── pages/           # The web application is configured to be a one-page site. Links with ScrollLink for smooth scrolling
 │   │   ├── Home
 │   │   └── ...
 │   ├── App.js            # Main application component
