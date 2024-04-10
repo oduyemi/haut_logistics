@@ -49,6 +49,10 @@ haut-logistics/
 │   └── ...
 │
 ├── src/                  # Source files
+│   ├── assets/           # Images, CSS, and other assets
+│   │   ├── images/
+│   │   ├── css/
+│   │   └── ...
 │   ├── components/       # React components
 │   │   ├── About.jsx
         ├── Banner.jsx
@@ -59,9 +63,11 @@ haut-logistics/
         ├── Services.jsx
 │   │   ├── Track.jsx
 │   │   └── ...
-│   ├── assets/           # Images, CSS, and other assets
-│   │   ├── images/
-│   │   ├── css/
+│   ├── navigation/           # TRoutes
+│   │   ├── index.jsx
+│   │   └── ...
+│   ├── pages/           # The web application is configured to be a one-page site
+│   │   ├── Home
 │   │   └── ...
 │   ├── App.js            # Main application component
 │   └── index.js          # Entry point
